@@ -41,11 +41,15 @@
       }
     </style>
 
+
+
+
+
     
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
   </head>
-  <body class="d-flex h-100 text-center text-white bg-dark">
+  <body class="d-flex h-100 text-center text-white bg-dark" style="font-family: monospace;">
     
 <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
   <header class="mb-auto">
@@ -60,18 +64,51 @@
   </header>
 
   <main class="px-3">
-    <h1>Software Dev;</h1>
-    <p class="lead">CS bachelor student at university of Trento, main interests in digital innovation, backend web dev, web3 and data science.</p>
-    <p class="lead">
-      <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
-    </p>
+
+
+<div class="typewriter">
+  <h1>Software Dev</h1>
+
+  <p class="lead">
+    main interests in :
+
+<ul class="mylist">
+  <li>- digital innovation</li>
+  <li>- backend web development</li>
+  <li>- web3 and blockchain technologies</li>
+  <li>- data-science</li>
+</ul>
+
+
+  </p>
+  <p class="lead">
+    <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn more</a>
+  </p>
+
+</div>
   </main>
 
   <footer class="mt-auto text-white-50">
     </footer>
 </div>
-
-
+<script src="js/three.min.js"></script>
+<script src="js/vanta.net.min.js"></script>
+<script>
+VANTA.NET({
+  el: "body",
+  mouseControls: false,
+  touchControls: false,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 0.50,
+  scaleMobile: 0.50,
+  points: 8.00,
+  maxDistance: 23.00,
+  spacing: 11.00,
+  showDots: false
+})
+</script
     
   </body>
 </html>
